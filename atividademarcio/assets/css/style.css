@@ -8,14 +8,14 @@
     margin-left: 30px;
 }
 
-.cabecalho .titulo{
+.cabecalho .titulo {
     font-size: 23pt;
     font-weight: 700;
     text-transform: uppercase;
     color: rgb(0, 0, 0);
 }
 
-.integrantes{
+.integrantes {
     width: 100%;
     height: 900px;
     display: flex;
@@ -24,54 +24,120 @@
     gap: 20px;
 }
 
-.integrantes .ray img{
+.integrantes .ray img {
     width: 500px;
     height: auto;
     padding: 10px;
     border-radius: 18px;
 }
 
-.integrantes .ray p{
+.integrantes .ray p {
     color: black;
     font-size: 13pt;
     font-weight: 500;
     text-align: center;
 }
 
-.integrantes .madu img{
+.integrantes .madu img {
     width: 500px;
     height: auto;
     padding: 10px;
     border-radius: 18px;
 }
 
-.integrantes .madu p{
+.integrantes .madu p {
     color: black;
     font-size: 13pt;
     font-weight: 500;
     text-align: center;
 }
 
-.integrantes .mary img{
+.integrantes .mary img {
     width: 500px;
     height: auto;
     padding: 10px;
     border-radius: 18px;
 }
 
-.integrantes .mary p{
+.integrantes .mary p {
     color: black;
     font-size: 13pt;
     font-weight: 500;
     text-align: center;
 }
 
-.perguntas{
+.perguntas {
     width: 100%;
-    height: 900px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: start;
-    flex-direction: column;
+    flex-direction: row;
 }
 
+.questao1 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40pt;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.questao1 p {
+    color: rgb(0, 0, 0);
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hobbies {
+    top: 75%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+
+}
+
+.questao2 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40pt;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.questao2 ul {
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.setinha a {
+    font-size: 80px
+}
+
+.expectativas {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+.questao3 h1{
+    color: rgb(0, 0, 0);
+    font-size: 40pt;
+    font-weight: 500;
+    text-align: justify;
+
+}
+.questao3 ul{
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: justify;
+
+}

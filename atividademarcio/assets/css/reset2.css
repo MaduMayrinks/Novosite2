@@ -1,5 +1,3 @@
-/* Reset CSS */
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * {
@@ -24,10 +22,4 @@ a {
 
 li {
     text-decoration: none;
-}
-html,footer{
-    width: 100%;
-    height: 100%;   
-    color: aqua;
-    font-family: "Oswald", sans-serif;
 }
