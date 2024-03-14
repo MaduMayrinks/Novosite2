@@ -1,0 +1,203 @@
+/* Style CSS */
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.menu {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.menu a {
+
+    font-size: 20pt;
+    font-weight: 700;
+    color: rgb(58, 26, 148);
+    margin-left: 30px;
+    text-align: left;
+}
+
+.cabecalho .titulo {
+    font-size: 23pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.integrantes {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.integrantes .ray img {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.integrantes .ray p {
+    color: rgb(255, 254, 254);
+    font-size: 13pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.integrantes .madu img {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.integrantes .madu p {
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.integrantes .mary img {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.integrantes .mary p {
+    color: rgb(255, 255, 255);
+    font-size: 13pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.perguntas {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+
+.questao1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.questao1 p {
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hobbies {
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+
+}
+
+.questao2 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.questao2 ul {
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.setinha a {
+    font-size: 80px
+}
+
+.expectativas {
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+
+.questao3 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40pt;
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+.questao3 ul {
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+.comunicacoes {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discord {
+    margin-left: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.instagram{
+  margin-left: 30px;
+  text-align: center;
+  padding: 10px;  
+}
+
+/* NextPage*/
+
+.textos {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.textos.desafios {
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/*BetaPage*/
+
